@@ -37,7 +37,7 @@ public class Task10 {
             System.out.println(capitalize(color));
         }
 
-        //  Ordena as cores em ordem crescente (alfabética)
+        //  Ordena as cores em ordem crescente
         Collections.sort(colors);
         System.out.println("\nCores em ordem crescente:");
         for (String color : colors) {
